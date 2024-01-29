@@ -1,0 +1,22 @@
+algoritmo HoradDeAcordarAteLevantar
+var
+    acordou: logico
+    abriuOlhos: logico
+    levantou: logico
+
+inicio
+    // Hora de Acordar
+    acordou -> verdadeiro
+
+    // Abrir os Olhos
+    abriuOlhos -> verdadeiro
+
+    // Verificar se é hora de levantar
+    se acordou = verdadeiro e abriuOlhos = verdadeiro entao
+        escreva("Hora de levantar")
+        levantou -> verdadeiro
+    senao
+        escreva("Ainda não é hora de levantar.")
+    
+    // Fim do Algoritmo
+fimalgoritmo
